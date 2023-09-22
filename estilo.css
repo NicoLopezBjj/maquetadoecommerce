@@ -6,6 +6,11 @@
     background-color:#003D29;
 }
 
+.shopCart{
+    width: 150px;
+    height: 40px;
+}
+
 /* HERO */
 
 .colorVerde{
@@ -18,4 +23,9 @@
     border-radius: 5% !important;
     font-weight: bold !important;
 
+}
+
+.hero{
+    background-image: url(Img/Hero\ TPfinal.jpg);
+    height: 100vh;
 }
