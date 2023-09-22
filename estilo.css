@@ -62,3 +62,21 @@ li:hover{
     transform: translateX(8px);
     transition: 0.5s;
 }
+
+.icons{
+    font-size: x-large;
+    color:rgb(226, 43, 76);
+    cursor: pointer;
+}
+
+.footerText{
+    cursor: pointer;
+}
+
+.footerText:hover{
+    color: rgb(226, 43, 76);
+}
+
+.borde{
+    border-right: 1px black solid;
+}
