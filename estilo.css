@@ -108,9 +108,54 @@ li:hover{
 /* SINGIN.HTML */
 
 .ancho{
-    width: 20rem;
+    width: 25rem;
+    align-items: center;
 }
 
 .btnVerde{
-    background-color: #003D29;
+    background-color: #003D29 !important;
+    color: white !important;
+}
+
+.input{
+    border-radius: 5%;
+    border: 1px solid rgb(191, 190, 190);
+}
+
+.borde{
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 2%;
+}
+
+.btnBlanco{
+    background-color: white;
+}
+
+.btnBlanco:hover{
+    background-color: rgb(232, 231, 231, 0.7) !important;
+}
+
+.styled-paragraph {
+    /* position: relative; */
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.styled-paragraph::before,
+.styled-paragraph::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    height: 0.3px;
+    background-color: gray;
+}
+
+.styled-paragraph::before {
+    margin-right: 1em;
+}
+
+.styled-paragraph::after {
+    margin-left: 1em;
 }
