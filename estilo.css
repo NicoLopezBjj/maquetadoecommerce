@@ -104,3 +104,13 @@ li:hover{
 .borde{
     border-right: 1px black solid;
 }
+
+/* SINGIN.HTML */
+
+.ancho{
+    width: 20rem;
+}
+
+.btnVerde{
+    background-color: #003D29;
+}
