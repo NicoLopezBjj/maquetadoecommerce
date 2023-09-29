@@ -147,9 +147,9 @@ li:hover{
     content: "";
     display: inline-block;
     vertical-align: middle;
-    width: 30%;
+    width: 20%;
     height: 0.3px;
-    background-color: gray;
+    background-color: rgb(206, 205, 205);
 }
 
 .styled-paragraph::before {
