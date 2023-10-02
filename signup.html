@@ -10,16 +10,26 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <div class="text-center align-items-center">
-        <img src="Img/ShopCart.jpg" class="shopCart">
+    <div class="text-center align-items-center mt-2">
+        <a href="index.html"><img src="Img/ShopCart.jpg" class="shopCart"></a>
     </div>
     <div class="d-flex flex-column align-items-center text-center justify-content-center ancho pt-3 mx-auto">
         <div class="d-flex flex-column borde p-4">
-            <h4 class="align-self-start">Iniciar sesion</h4>
+            <h4 class="align-self-start">Crear cuenta</h4>
             <div class="d-flex flex-column">
-                <p class="align-self-start mb-1">Direccion de email</p>
-                <input type="text" class="input p-1">
-                <button class="btn btnVerde mt-2">Continuar</button>
+                <form action="">
+                    <p class="align-self-start mb-1">Tu nombre</p>
+                    <input type="text" class="input p-1" placeholder="Nombre y apellido">
+                    <p class="align-self-start mb-1">Correo electronico</p>
+                    <input type="text" class="input p-1" placeholder="Email">
+                    <p class="align-self-start mb-1">Contraseña</p>
+                    <input type="password" class="input p-1" placeholder="Debe tener al menos 6 caracteres">
+                    <p>La contraseña debe tener al menos 6 caracteres</p>
+                    <p class="align-self-start mb-1">Vuelve a escribir tu contraseña</p>
+                    <input type="password" class="input p-1">
+                    <button class="btn btnVerde mt-2">Continuar</button>
+                </form>
+                
             </div>
             <p class="align-self-start mt-2">Al continuar, aceptas las <a href="" class="hoverEnlace">Condiciones de uso</a>
                 y el <a href="" class="hoverEnlace">Aviso de privacidad</a> de Amazon</p>
