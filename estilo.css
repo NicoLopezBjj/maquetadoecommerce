@@ -176,3 +176,16 @@ li{
     margin-left: 1em;
 }
 
+/* signUP HTML */
+.achicar{
+    font-size: small !important;
+}
+
+.alerta{
+    color: blue !important;
+    font-size: large;
+}
+
+.linea{
+    color: gray;
+}
