@@ -37,6 +37,10 @@ li:hover {
 
 /* HERO */
 
+.topGreen{
+    border-right: 1px white solid;
+}
+
 .colorVerde{
     color: #003D29 !important;
 }
