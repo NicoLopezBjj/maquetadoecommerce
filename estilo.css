@@ -76,10 +76,6 @@ li:hover {
     background-position: center;
 }
 
-.absolute{
-    position: absolute;
-}
-
 .fondo{
     background-color: #003D29 !important;
     color: white;
