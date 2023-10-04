@@ -13,6 +13,10 @@
 
 /* HOVER */
 
+.hoverNav:hover{
+    opacity: 20%;
+}
+
 .hoverVerde:hover{
     background-color: rgba(33, 33, 35) !important;
 }
